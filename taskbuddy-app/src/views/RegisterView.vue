@@ -32,11 +32,9 @@ function submit() {
 
 <template>
   <section class="mx-auto grid max-w-xl gap-6">
+    <!-- !!TaskBuddy uses a demo auth flow for the course project (stored locally)!! !-->
     <header class="space-y-2">
       <h1 class="text-2xl font-semibold tracking-tight">Create your account</h1>
-      <p class="text-sm text-zinc-600 dark:text-zinc-400">
-        TaskBuddy uses a demo auth flow for the course project (stored locally).
-      </p>
     </header>
 
     <form
