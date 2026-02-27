@@ -41,7 +41,7 @@ npm install
 npm run dev
 ```
 
-The Vite dev server URL will be printed in the terminal (usually `http://localhost:5173`).
+The Vite dev server URL should be printed in the terminal (usually `http://localhost:5173`).
 
 ### Build for production
 
@@ -70,21 +70,8 @@ Inside `taskbuddy-app/`:
 - `src/components/ui/` – UI primitives (e.g. `ThemeToggle.vue`)
 - `src/components/tasks/` – task domain components (`TaskCard`, `TaskForm`, `TaskEditDialog`)
 
-### Pushing to GitHub & Adding Reviewer
+### Project Structure (frontend workspace)
 
-1. Create a GitHub repo and push this project:
-
-```bash
-git init
-git add .
-git commit -m "Initial TaskBuddy implementation"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-2. Create a Pull Request and **add your professor as reviewer**:
-
-- GitHub username: `nono-daisy`
-- Email: `uwase.nono.h@gmail.com`
-
+Implemented by 
+- Name: `Missy Olivia Ngabire`
+- ID: `23373`
