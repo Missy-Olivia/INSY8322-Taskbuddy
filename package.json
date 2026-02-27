@@ -1,0 +1,15 @@
+{
+  "name": "taskbuddy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "workspaces": [
+    "taskbuddy-app"
+  ],
+  "scripts": {
+    "dev": "npm -w taskbuddy-app run dev",
+    "build": "npm -w taskbuddy-app run build",
+    "preview": "npm -w taskbuddy-app run preview"
+  },
+  "devDependencies": {}
+}
